@@ -33,11 +33,11 @@ This dashboard acts as a decision-support system — enabling stakeholders to:
 In short, what started as raw transactional data transformed into a story of business performance, strategy, and growth.
 
 DAX Measures: 
-Total Sales =  SUMX(Sales,Sales[Quantity] * RELATED(Products[Unit Price USD]))/ 100
+TOTAL SALES =  SUMX(Sales,Sales[Quantity] * RELATED(Products[Unit Price USD]))/ 100
 
-Total Cost = SUMX(Sales,Sales[Quantity] * RELATED(Products[Unit Cost USD]))/ 100
+TOTAL COST = SUMX(Sales,Sales[Quantity] * RELATED(Products[Unit Cost USD]))/ 100
 
-Forcaste Sales = 
+FORECAST SALES = 
 VAR FOR_YEAR = CALCULATE(MAX('Calendar'[Year]) -1,ALL('Calendar')) // SAME AS SAMEPERIODLASTYEAR
 VAR SALES_ = CALCULATE(SUM(Sales[Sales]),'Calendar'[Year] = FOR_YEAR)
 VAR No_OF_MONTH = CALCULATE(DISTINCTCOUNT('Calendar'[Month]),'Calendar'[Year] = FOR_YEAR)
