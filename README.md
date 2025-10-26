@@ -3,7 +3,7 @@
 In today’s data-driven world, it’s not about having more data — it’s about finding the right insights that drive decisions.
 I recently worked on a Global Electronics Retailers KPI Dashboard using a dataset from Kaggle to explore how sales, cost, and profit vary across countries, categories, and time.
 
-https://raw.githubusercontent.com/purvasavant92-sys/Global-Electronic-Retailer-Dashboard/refs/heads/main/Sales%20Dashboard.jpg
+![Image](https://github.com/user-attachments/assets/a39bddf6-01f2-4ead-b6a0-f5cf76560ddc)
 ________________________________________
 💡 The Challenge
 The dataset represented a global retail business selling electronics through both online and offline stores.
